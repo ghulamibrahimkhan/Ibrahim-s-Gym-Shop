@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(5, 5, 5) !important;
+}
+.nav-link {
+    color: rgb(248, 248, 248) !important;
+    font-weight: bold;
+}
+.logo{
+    
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+.navbar-toggler{
+    color: whitesmoke !important;
+    background-color: white;
+}
+.navbar-toggler-icon{
+    color: whitesmoke !important;
+    background-color: whitesmoke;
+}
