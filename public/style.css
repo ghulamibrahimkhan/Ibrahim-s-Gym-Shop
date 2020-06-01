@@ -42,8 +42,24 @@
 }
 .card{
     width: 250px;
-    height: auto;
+    height: 550px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+.products-heading{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    font-size: 50px;
+    text-shadow: 1px 1px 3px #fff;
+    text-transform: uppercase;
+    /* background-color: #000; */
+}
+.ac-img{
+    min-height: 200px;
+    max-height: 250px;
+}
+.ac-heading{
+    margin: 100px;
 }
