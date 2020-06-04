@@ -3,7 +3,13 @@
     padding: 0px;
     font-family: sans-serif;
 }
-.footer{
+.bdy-content {
+    width: 100%;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.footer {
     width: 100%;
     background-color: black;
     color: #ffffff;
@@ -19,13 +25,16 @@
     justify-content: center;
 }
 .footer-items{
-    width: 25%;text-align: justify;
+    width: 25%;
+    /* text-align: justify; */
     padding: 10px 20px;
     box-sizing: border-box;
 }
-h1{
+.footer-h1{
     padding: 10px 0;
     text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
 }
 .footer-items p {
     color: grey;
@@ -33,63 +42,68 @@ h1{
     text-align: justify;
     line-height: 25px;
 }
-h2{
+.footer-h2{
     margin: 10px 0;
     font-size: 16px;
     color: grey;
     font-weight: lighter;
+    text-transform: uppercase;
 }
-.border{
+.border-dash{
     height: 2px;
     width: 40px;
     background: #ff9800;
+    background-color: #ff9800;
 
-    
 }
 
-ul{
+.ul-li{
     list-style: none;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.5px;
 }
-ul a {
+.ul-li a {
     text-decoration: none;
     outline: none;
     color: #fff;
     transition: 0.3s;
 }
-ul a:hover{
-    color: #ff9800;
+.ul-li a:hover{
+    color: #0fa4ee;
+    text-decoration: none;
 
 }
-ul li {
+.ul-li li {
     margin: 10px 0;
-    height: 25px;
+    height: 35px;
 }
 li i{
     margin-right: 20px;
 
 }
-.social-media{
+.social-media-1{
     width: 100%;
     color: #fff;
     text-align: center;
 }
-.social-media a{
+.soc-m1{
     text-decoration: none;
 }
-.social-media i {
-    height: 15px;
-    width: 15px;
-    margin: 20px 5px;
-    padding: 10px;
-    color: #fff;
-    border-radius: 50%;
-    border: 1px solid grey;
-    transition: 0.3s;
-}
-.social-media i:hover{
+.icon-x{
+    height: 15px !important;
+    width: 15px !important;
+    margin: 20px 5px  !important;
+    padding-bottom: 25px !important;
+    padding-top: 10px !important;
+    padding-right: 25px !important;
+    padding-left: 10px !important;
+    color: #fff !important;
+    border-radius: 50% !important;
+    border: 1px solid grey !important;
+    transition: 0.3s ;
+} 
+.social-media-1 i:hover{
     background:grey;
 }
 .footer-bottom{
