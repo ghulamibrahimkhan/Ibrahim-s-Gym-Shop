@@ -2,9 +2,12 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <link rel="stylesheet" href="footer.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -32,7 +35,7 @@
             <span class="navbar-text">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                     <li class="nav-item dropdown">
@@ -48,20 +51,20 @@
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about us/aboutUs.html">ABOUT US</a>
+                        <a class="nav-link" href="blog/blog.html">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact us/contactUs.html">CONTACT US</a>
+                        <a class="nav-link" href="about us/aboutUs.html">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
+                        <a class="nav-link" href="contact us/contactUs.html">CONTACT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"></a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="cart/cart.html">
                             <i class="fas fa-shopping-cart fa-lg"></i>
                         </a>
                     </li>
@@ -79,11 +82,11 @@
                 </ul>
             </span>
         </div>
-    </nav> 
+    </nav>
 
     <!-- slider -->
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -122,6 +125,16 @@
         </a>
     </div>
 
+    <!-- Alert -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Due To Covid-19!</strong> Your Order Can Be Deliver Late
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+
+    <!-- Card -->
     <div class="main-card">
         <div class="card-1">
             <div> <i class="icon-m fas fa-shipping-fast fa-2x"></i> </div>
@@ -152,258 +165,361 @@
             <div class="heading-parrent">
                 <h1 class="products-heading">
                     <!-- P R O D U C T S -->
-                     E Q U I P M E N TS
+                    E Q U I P M E N TS
                 </h1>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/hexagon-dumbbell.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">HEXA DUMBBELL</h5>
                             <p class="card-text">
                                 Available both as a complete kit and as single items,
                                 the Hexagon Dumbbells offer the highest quality and durability</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/flatbench.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">FLAT BENCH </h5>
                             <p class="card-text">With its compact,Flat Bench is easy to move and is ideal
                                 for users of all sizes for performing a variety of free weights exercises</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/t-bar-row.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">T-BAR ROW</h5>
                             <p class="card-text">Sturdy construction, a comfortable chest support and the Pure-Grip
                                 handles provide the best partner for your workouts.</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/rack_personal.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">RACK PERSONAL</h5>
                             <p class="card-text"> The innovative Smart Lock systems allowing user barbell support
                                 locking and a smooth,
                                 fluid sliding movement of the safety bars.</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/exercise_mat.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">EXERCISE MAT</h5>
                             <p class="card-text">The thick foam and anti-slip surface make the Exercise Mat a convenient
                                 tool to perform both stretching and strength exercises.</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/cable_station_4.jpg " alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">CABLE STATIONS</h5>
                             <p class="card-text">This standalone station can host up to 4 users at a time. It includes
                                 the Triceps,Row / Dual Row and Lat Pull Down / Dual Lat Pulldown modules.</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/exercise_mat.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">EXERCISE MAT</h5>
                             <p class="card-text">The thick foam and anti-slip surface make the Exercise Mat a convenient
                                 tool to perform both stretching and strength exercises.</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/exercise_mat.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">EXERCISE MAT</h5>
                             <p class="card-text">The thick foam and anti-slip surface make the Exercise Mat a convenient
                                 tool to perform both stretching and strength exercises.</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/hexagon-dumbbell.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">HEXA DUMBBELL</h5>
                             <p class="card-text">
                                 Available both as a complete kit and as single items,
                                 the Hexagon Dumbbells offer the highest quality and durability</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/flatbench.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">FLAT BENCH</h5>
                             <p class="card-text">With its compact,Flat Bench is easy to move and is ideal
                                 for users of all sizes for performing a variety of free weights exercises</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/t-bar-row.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">T-BAR ROW</h5>
                             <p class="card-text">Sturdy construction, a comfortable chest support and the Pure-Grip
                                 handles provide the best partner for your workouts.</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card">
+                    <div class="card card-product">
                         <img class="card-img-top" src="products/rack_personal.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">RACK PERSONAL</h5>
                             <p class="card-text"> The innovative Smart Lock systems allowing user barbell support
                                 locking and a smooth,
                                 fluid sliding movement of the safety bars.</p>
-                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                            <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <!-- Acessories -->
 
-         <div class="heading-parrent ac-heading">
+        <div class="heading-parrent ac-heading">
             <h1 class="products-heading">
 
                 <div>
                     <!-- P R O D U C T S -->
                     a c c e s s o r i e s
-             </h1>
+            </h1>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="card">
+                <div class="card card-product">
                     <img class="card-img-top ac-img" src="products/accessories/product1.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">JUMP ROPE</h5>
                         <p class="card-text">
                             The Thenx jump rope comes with a 8'6" PVC rope that is both thick and heavy ensure a
                             hardcore fat burning and cardio workout</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card card-product">
                     <img class="card-img-top ac-img" src="products/accessories/product2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">WRIST WRAPS</h5>
                         <p class="card-text">Reliable protection and maximum support.Optimize your work out by aiding
                             you to lift heavier,
                             but also assisting you in completing more reps than before</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card card-product">
                     <img class="card-img-top ac-img" src="products/accessories/product3.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">WRIST WRAPS</h5>
                         <p class="card-text">Reliable protection and maximum support.Optimize your work out by aiding
                             you to lift heavier,
                             but also assisting you in completing more reps than before</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                     </div>
                 </div>
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card card-product">
                     <img class="card-img-top ac-img" src="products/accessories/product4.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">WEIGHT BELT</h5>
                         <p class="card-text"> Thenx weight belts engineered to provide you maximum support!
                             These belts are Polypropylene material</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-outline-dark">Add to Cart</a>
                     </div>
                 </div>
             </div>
 
         </div>
-    </div> 
+    </div>
 
 
-     
-        <br><hr>
-        <br><hr>
-        <br><hr><br>
+    <div class="customer-reviews">
+        <h1 class="products-heading">
+            <!-- Customer reviews-->
+            C U S T O M E R <i class="far fa-user"></i> R E V I E W S </i>
+            <br> <br>
+            <div>
+                <i class="far fa-grin-stars"></i>
+                <i class="far fa-grin-hearts"></i>
+                <i class="far fa-grin"></i>
+                <i class="far fa-frown"></i>
+                <i class="fas fa-hand-middle-finger"></i>
+            </div>
+        </h1>
+        <br><br>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- card -->
+                    <div class="customer-reviews-cards">
+                        <div class="card bg-light mb-3">
+                            <div class="card-header">
+                                Quote
+                            </div>
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite
+                                            title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- card -->
+                    <div class="customer-reviews-cards">
+                        <div class="card bg-light mb-3">
+                            <div class="card-header">
+                                Quote
+                            </div>
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite
+                                            title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- card -->
+                    <div class="customer-reviews-cards">
+                        <div class="card bg-light mb-3">
+                            <div class="card-header">
+                                Quote
+                            </div>
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
+                                        a ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite
+                                            title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 
-                <!-- Footer -->
+    <br>
+    <hr>
+    <br>
+    <hr>
+    <br>
+    <hr><br>
+
+
+
+    <!-- Footer -->
     <div class="footer">
         <div class="inner-footer">
 
             <div class="footer-items">
                 <h1 class="footer-h1">XYZ ABC</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet, quidem at placeat suscipit
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet, quidem at placeat
+                    suscipit
                     fugit culpa quisquam, aliquid architecto doloremque dicta incidunt,.</p>
             </div>
 
             <div class="footer-items">
                 <h2 class="footer-h2">Computer and codes</h2>
                 <div class="border-dash"></div>
-                    <ul class="ul-li">
-                        <a href=""><li>HOME   </li></a>
-                        <a href=""><li>SHOP  </li></a>
-                        <a href=""><li>ABOUT US</li></a>
-                        <a href=""><li>CONTACT US</li></a>
-                    </ul>
-            </div>  
+                <ul class="ul-li">
+                    <a href="">
+                        <li>HOME </li>
+                    </a>
+                    <a href="">
+                        <li>SHOP </li>
+                    </a>
+                    <a href="">
+                        <li>ABOUT US</li>
+                    </a>
+                    <a href="">
+                        <li>CONTACT US</li>
+                    </a>
+                </ul>
+            </div>
 
             <div class="footer-items">
                 <h2 class="footer-h2">MOST VIEWED</h2>
                 <div class="border-dash"></div>
-                    <ul class="ul-li">
-                        <a href=""><li>ITEMS     </li></a>
-                        <a href=""><li>EQUIPMENTS</li></a>
-                        <a href=""><li>ACESSORIES</li></a>
-                        <a href=""><li>SHIPMENTS </li></a>
-                    </ul>
+                <ul class="ul-li">
+                    <a href="">
+                        <li>ITEMS </li>
+                    </a>
+                    <a href="">
+                        <li>EQUIPMENTS</li>
+                    </a>
+                    <a href="">
+                        <li>ACESSORIES</li>
+                    </a>
+                    <a href="">
+                        <li>SHIPMENTS </li>
+                    </a>
+                </ul>
             </div>
 
             <div class="footer-items">
@@ -433,7 +549,8 @@
 
 
 
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
         </script>

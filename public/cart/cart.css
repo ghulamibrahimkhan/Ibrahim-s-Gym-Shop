@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.bdy-content {
+    width: 100%;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.footer {
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    display: block;
+}
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items{
+    width: 25%;
+    /* text-align: justify; */
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.footer-h1{
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+}
+.footer-items p {
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+.footer-h2{
+    margin: 10px 0;
+    font-size: 16px;
+    color: grey;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.border-dash{
+    height: 2px;
+    width: 40px;
+    background: #ff9800;
+    background-color: #ff9800;
+
+}
+
+.ul-li{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.ul-li a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.ul-li a:hover{
+    color: #0fa4ee;
+    text-decoration: none;
+
+}
+.ul-li li {
+    margin: 10px 0;
+    height: 35px;
+}
+li i{
+    margin-right: 20px;
+
+}
+.social-media-1{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.soc-m1{
+    text-decoration: none;
+}
+.icon-x{
+    height: 15px !important;
+    width: 15px !important;
+    margin: 20px 5px  !important;
+    padding-bottom: 25px !important;
+    padding-top: 10px !important;
+    padding-right: 25px !important;
+    padding-left: 10px !important;
+    color: #fff !important;
+    border-radius: 50% !important;
+    border: 1px solid grey !important;
+    transition: 0.3s ;
+} 
+.social-media-1 i:hover{
+    background:grey;
+}
+.footer-bottom{
+    padding: 10px;
+    background: #3d545f;
+    color: #fff;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1085px) {
+    .footer-items{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer-items{
+        width: 100%;
+    }
+}
