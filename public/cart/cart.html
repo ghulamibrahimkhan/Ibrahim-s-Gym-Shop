@@ -43,10 +43,10 @@
               SHOP
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">ACESSORIES</a>
-              <a class="dropdown-item" href="#">CARDIO</a>
-              <a class="dropdown-item" href="#">GYM</a>
-            </div>
+              <a class="dropdown-item" href="../shop/acessories.html">ACESSORIES</a>
+              <a class="dropdown-item" href="../shop/cardio.html">CARDIO</a>
+              <a class="dropdown-item" href="../shop/gym.html">GYM</a>
+          </div>
           </li>
           </li>
           <li class="nav-item">
@@ -71,7 +71,7 @@
             <a class="nav-link" href="#"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" data-toggle="modal" data-target="#signupModal" href="#">
               <i class="far fa-user fa-lg"></i>
             </a>
           </li>
@@ -82,6 +82,96 @@
       </span>
     </div>
   </nav>
+
+   <!-- Modals -->
+
+
+    <!--Login  Modal -->
+
+
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" placeholder="@Email" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" placeholder="Enter Your Password"
+                                    id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4"
+                                placeholder="Confirm Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>Sindh</option>
+                                    <option>Balochistan</option>
+                                    <option>Punjab</option>
+                                    <option>Sarhad</option>
+                                    <option>Gilgit</option>
+                                    <option>Islamabad</option>
+                                    <option>Fata</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary"> Login </button>
+                        <hr>
+                        <p>Dont have an account???</p>
+                        <button  data-toggle="modal" data-target="#signUpModal" 
+                        class="btn btn-outline-dark"><a href=""  >Creat an account</a></button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
   <!-- <style>

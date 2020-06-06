@@ -52,14 +52,15 @@
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../about us/aboutUs.html">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../contact us/contactUs.html">CONTACT US</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="blog.html">BLOG</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about us/aboutUs.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact us/contactUs.html">CONTACT</a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#"></a>
                     </li>
@@ -73,7 +74,7 @@
                         <a class="nav-link" href="#"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" data-toggle="modal" data-target="#signupModal" href="#">
                             <i class="far fa-user fa-lg"></i>
                         </a>
                     </li>
@@ -84,6 +85,184 @@
             </span>
         </div>
     </nav>
+    <!-- Modals -->
+
+
+    <!--Login  Modal -->
+
+
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" placeholder="@Email" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" placeholder="Enter Your Password"
+                                    id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4"
+                                placeholder="Confirm Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>Sindh</option>
+                                    <option>Balochistan</option>
+                                    <option>Punjab</option>
+                                    <option>Sarhad</option>
+                                    <option>Gilgit</option>
+                                    <option>Islamabad</option>
+                                    <option>Fata</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary"> Login </button>
+                        <hr>
+                        <p>Dont have an account???</p>
+                        <button data-toggle="modal" data-target="#signUpModal" class="btn btn-outline-dark"><a
+                                href="">Creat an account</a></button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+
+
+    <!--Login  Modal -->
+
+
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" placeholder="@Email" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" placeholder="Enter Your Password"
+                                    id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4"
+                                placeholder="Confirm Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>Sindh</option>
+                                    <option>Balochistan</option>
+                                    <option>Punjab</option>
+                                    <option>Sarhad</option>
+                                    <option>Gilgit</option>
+                                    <option>Islamabad</option>
+                                    <option>Fata</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary"> Login </button>
+                        <hr>
+                        <p>Dont have an account???</p>
+                        <button data-toggle="modal" data-target="#signUpModal" class="btn btn-outline-dark"><a
+                                href="">Creat an account</a></button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- slider -->
 
@@ -135,11 +314,11 @@
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
+                        <strong class="d-inline-block mb-2 text-primary">Fitness</strong>
+                        <h3 class="mb-0">Sleepy in G Y M! ???</h3>
+                        <div class="mb-1 text-muted">June 10</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</p>
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
@@ -151,11 +330,11 @@
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success">Design</strong>
-                        <h3 class="mb-0">Post title</h3>
-                        <div class="mb-1 text-muted">Nov 11</div>
-                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <strong class="d-inline-block mb-2 text-success">Fitness</strong>
+                        <h3 class="mb-0">How To Get Fit</h3>
+                        <div class="mb-1 text-muted">june 9</div>
+                        <p class="mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.</p>
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
@@ -167,11 +346,11 @@
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
+                        <strong class="d-inline-block mb-2 text-primary">Cross Fit</strong>
+                        <h3 class="mb-0">10 Cross Fit Exercises You Should Know</h3>
+                        <div class="mb-1 text-muted">june 10</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</p>
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
@@ -183,11 +362,11 @@
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
+                        <strong class="d-inline-block mb-2 text-primary">Extensions</strong>
+                        <h3 class="mb-0">How To Do Workout On Extensions</h3>
+                        <div class="mb-1 text-muted">june 7</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</p>
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
@@ -200,15 +379,16 @@
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
+                        <strong class="d-inline-block mb-2 text-primary">Fit</strong>
+                        <h3 class="mb-0">Get Ready To fit</h3>
+                        <div class="mb-1 text-muted">june 3</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</p>
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img src="blog images/5.jpg" class="bd-placeholder-img img-fluid" width="200" height="250" alt="">
+                        <img src="blog images/5.jpg" class="bd-placeholder-img img-fluid" width="200" height="250"
+                            alt="">
                     </div>
                 </div>
 
@@ -217,11 +397,11 @@
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0">Featured post</h3>
+                        <strong class="d-inline-block mb-2 text-primary">ibrahim's Gym Shop</strong>
+                        <h3 class="mb-0">Ibrahim's GYM Shop</h3>
                         <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</p>
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">

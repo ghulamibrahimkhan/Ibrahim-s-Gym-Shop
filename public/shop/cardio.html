@@ -2,12 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="footer.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../nav.css">
     <link rel="stylesheet" href="../footer.css">
     <title>Website</title>
@@ -31,23 +35,23 @@
             <span class="navbar-text">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="../index.html">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="shop/shop.html" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             SHOP
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">ACESSORIES</a>
-                            <a class="dropdown-item" href="#">CARDIO</a>
-                            <a class="dropdown-item" href="#">GYM</a>
+                            <a class="dropdown-item" href="acessories.html">ACESSORIES</a>
+                            <a class="dropdown-item" href="cardio.html">CARDIO</a>
+                            <a class="dropdown-item" href="gym.html">GYM</a>
                         </div>
+                    </li>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../blog/blog.html">BLOG</a>
-                    </li>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../about us/aboutUs.html">ABOUT</a>
@@ -56,7 +60,7 @@
                         <a class="nav-link" href="../contact us/contactUs.html">CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
+                        <a class="nav-link" href=""></a>
                     </li>
 
                     <li class="nav-item">
@@ -159,8 +163,8 @@
                         <button type="submit" class="btn btn-primary"> Login </button>
                         <hr>
                         <p>Dont have an account???</p>
-                        <button data-toggle="modal" data-target="#signUpModal" class="btn btn-outline-dark"><a
-                                href="">Creat an account</a></button>
+                        <button  data-toggle="modal" data-target="#signUpModal" 
+                        class="btn btn-outline-dark"><a href=""  >Creat an account</a></button>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -170,95 +174,77 @@
         </div>
     </div>
 
+   
+    
 
-    <!-- ***Form*** -->
+        <!-- Acessories -->
 
-    <div class="container my-4">
-        <div class="m-5">
-            <h1 class="contact " style="font-weight: bold;">Contact Us</h1>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" required class="form-control" id="email" aria-describedby="email">
-                    <small id="email-small" class="">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Phone</label>
-                    <input type="number" required class="form-control" id="exampleInputEmail1"
-                        aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your phone number anyone
-                        else.</small>
-                </div>
+        <div class="heading-parrent ac-heading">
+            <h1 class="products-heading">
 
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Select Item</label>
-                    <select class="form-control" required id="exampleFormControlSelect1">
-                        <option>Multiple Item Select</option>
-                        <option>HEXA DUMBBELL</option>
-                        <option>FLAT BENCH</option>
-                        <option>T-BAR ROW</option>
-                        <option>RACK PERSONAL</option>
-                        <option>EXERCISE MAT</option>
-                        <option>CABLE STATIONS</option>
-                        <option>JUMP ROPE</option>
-                        <option>WRIST WRAPS</option>
-                        <option>WEIGHT BELT</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect2">Multiple Select</label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-                        <option>Multiple Select</option>
-                        <option>HEXA DUMBBELL</option>
-                        <option>FLAT BENCH</option>
-                        <option>T-BAR ROW</option>
-                        <option>RACK PERSONAL</option>
-                        <option>EXERCISE MAT</option>
-                        <option>CABLE STATIONS</option>
-                        <option>JUMP ROPE</option>
-                        <option>WRIST WRAPS</option>
-                        <option>WEIGHT BELT</option>
-                    </select>
-                    <small id="emailHelp" class="form-text text-muted">Cntrl+Select</small>
-                </div>
-                <h5 class="mr-5">Select </h5>
-                <div class="form-check form-check-inline ml-2">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Shipment Late</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                    <label class="form-check-label" for="inlineCheckbox2">Broken Equipment</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Worng Product</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                    <label class="form-check-label" for="inlineCheckbox2">Others</label>
-                </div>
-                <div class="form-group my-4">
-                    <label for="exampleInputEmail1">Submit Your Image</label>
-                    <input type="file" class="form-control" id="" aria-describedby="">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Describe Your Concern</label>
-                    <textarea name="" id="" cols="30" required class="form-control" rows="10"></textarea>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" required class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">I Have provided Right Information</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+                <div>
+                    <!-- P R O D U C T S -->
+                     c a r d i o
+            </h1>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card card-product">
+                    <img class="card-img-top ac-img" src="../products/accessories/product1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">JUMP ROPE</h5>
+                        <p class="card-text">
+                            The Thenx jump rope comes with a 8'6" PVC rope that is both thick and heavy ensure a
+                            hardcore fat burning and cardio workout</p>
+                        <a href="#" class="btn btn-outline-dark">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-product">
+                    <img class="card-img-top ac-img" src="../products/accessories/product2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">WRIST WRAPS</h5>
+                        <p class="card-text">Reliable protection and maximum support.Optimize your work out by aiding
+                            you to lift heavier,
+                            but also assisting you in completing more reps than before</p>
+                        <a href="contact us/contactUs.html" class="btn btn-outline-dark">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-product">
+                    <img class="card-img-top" src="../products/hexagon-dumbbell.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">HEXA DUMBBELL</h5>
+                        <p class="card-text">
+                            Available both as a complete kit and as single items,
+                            the Hexagon Dumbbells offer the highest quality and durability</p>
+                        <a href="contact us/contactUs.html" class="btn btn-outline-dark">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-product">
+                    <img class="card-img-top" src="../products/exercise_mat.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">EXERCISE MAT</h5>
+                        <p class="card-text">The thick foam and anti-slip surface make the Exercise Mat a convenient
+                            tool to perform both stretching and strength exercises.</p>
+                        <a href="contact us/contactUs.html" class="btn btn-outline-dark">Add to Cart</a>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+<br><br><br>
 
 
 
     <!-- Footer -->
-
     <div class="footer">
         <div class="inner-footer">
 
@@ -332,6 +318,10 @@
 
 
 
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
         </script>
